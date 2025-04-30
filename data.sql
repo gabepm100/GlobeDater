@@ -852,4 +852,39 @@ VALUES (
         '1993-01-01',
         NULL,
         NULL
+    ),
+    (
+        121,
+        'Is Czechia present on the map?',
+        '2016-07-05',
+        NULL,
+        NULL
+    ),
+    (
+        122,
+        'Is The Czech Republic present on the map?',
+        '1993-01-01',
+        '2016-07-05'
+        NULL
+    ),
+    (
+        123
+        'Is Yugoslavia present on the map?',
+        '1918-12-01',
+        '1992-04-27',
+        NULL
+    ),
+    (
+        124
+        'Is the United states present on the map?',
+        '1776-07-04',
+        NULL,
+        NULL
+    ),
+    (
+        125,
+        'Is the Ottoman Empire present on the map?',
+        '1296-01-01',
+        '1922-11-01',
+        NULL
     );
