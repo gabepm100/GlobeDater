@@ -1,14 +1,15 @@
 const { Pool } = require('pg');
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 // Database configuration
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
   database: 'postgres', // Connect to default database first
-  password: 'pheobeparis',
-  port: 5432,
+  password: process.env.DB_PASSWORD,
+  port: process.env.DB_PORT,
 });
 
 async function initializeDatabase() {
@@ -30,11 +31,11 @@ async function initializeDatabase() {
 
   // Connect to the new database
   const dbPool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'globe_dater',
-    password: 'pheobeparis',
-    port: 5432,
+    user: process.env.DB_USER,
+    host: process.env.DB_HOST,
+    database: process.env.DB_NAME,
+    password: process.env.DB_PASSWORD,
+    port: process.env.DB_PORT,
   });
 
   const dbClient = await dbPool.connect();
