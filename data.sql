@@ -11,14 +11,14 @@ VALUES (
         'Independence of Argentina',
         '1816-05-25',
         NULL,
-        NULL
+        "assets/countries/Argentina.png"
     ),
     (
         2,
         'New Holland becomes Australia',
         '1817-01-01',
         NULL,
-        NULL
+        "assets/countries/Australia.png"
     ),
     (
         3,
