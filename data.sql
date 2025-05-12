@@ -11,14 +11,14 @@ VALUES (
         'Independence of Argentina',
         '1816-05-25',
         NULL,
-        "assets/countries/Argentina.png"
+        "/assets/countries/Argentina.png"
     ),
     (
         2,
         'New Holland becomes Australia',
         '1817-01-01',
         NULL,
-        "assets/countries/Australia.png"
+        "/assets/countries/Australia.png"
     ),
     (
         3,
@@ -57,7 +57,7 @@ VALUES (
     ),
     (
         8,
-        'Discovery of Enderby’s Land in Antarctic',
+        'Discovery of Enderby's Land in Antarctic',
         '1831-01-01',
         NULL,
         NULL
@@ -78,7 +78,7 @@ VALUES (
     ),
     (
         11,
-        'Van Diemen’s Land becomes Tasmania',
+        'Van Diemen's Land becomes Tasmania',
         '1846-01-01',
         NULL,
         NULL
@@ -813,7 +813,7 @@ VALUES (
     ),
     (
         116,
-        'Ivory Coast changes name to Côte d’Ivoire',
+        'Ivory Coast changes name to Côte d'Ivoire',
         '1986-01-01',
         NULL,
         NULL
